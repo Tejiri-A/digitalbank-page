@@ -55,3 +55,7 @@
 @utility text-8{
     @apply text-[0.625rem] leading-[1.15] tracking-normal
 }
+
+body{
+    @apply bg-zinc-900
+}
