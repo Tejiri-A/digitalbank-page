@@ -1,1 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme{
+    --color-gray-50: #FAFAFAFA;
+    --color-gray-100: #F4F5F7;
+    --color-gray-600: #9597A5;
+    --color-blue-950: #2D314D;
+    --color-green-400: #30C88F;
+
+    --font-default: 'Public Sans', sans-serif;
+
+}
+
+@utility gradient-1{
+    @apply bg-linear-to-bl from-[#3DD35E] to-[#2AB6D9]
+}
+
+@utility gradient-2{
+    @apply bg-linear-to-b from-[#2D314D] to-[#3D314D]/0
+}
+
+@utility text-1{
+    @apply font-light text-[3.5rem] leading-[1.2] tracking-[-1px]
+}
+
+@utility text-2{
+    @apply font-light text-[2.5rem] leading-[1.2] tracking-[-0.75px]
+}
+
+@utility text-3{
+    @apply font-light text-[2rem] leading-[1.2] tracking-[-0.5px]
+}
+
+@utility text-4{
+    @apply font-light text-[1.5rem] leading-[1.15] tracking-[-0.4px]
+}
+
+@utility text-5{
+    @apply text-[1.125rem] leading-[1.2] tracking-[-0.25px]
+}
+
+@utility text-6{
+    @apply font-light text-base leading-[1.2] tracking-[-0.25px]
+}
+
+@utility text-7-bold{
+    @apply font-bold text-[0.875rem] leading-[2] tracking-normal
+}
+
+@utility text-7-regular{
+    @apply  text-[0.875rem] leading-[1.15] tracking-normal
+}
+
+@utility text-8{
+    @apply text-[0.625rem] leading-[1.15] tracking-normal
+}
