@@ -47,7 +47,7 @@ export const Heading = () => {
                 >
                   <a
                     href={href}
-                    className={` ${activeHash === href ? "text-blue-950" : "text-gray-600"} text-7-regular`}
+                    className={`hover:text-blue-950 ${activeHash === href ? "text-blue-950" : "text-gray-600"} text-7-regular`}
                   >
                     {label}
                   </a>
@@ -78,7 +78,7 @@ export const Heading = () => {
         {/*  hamburger button (mobile only) */}
         <ToggleMenuButton onClick={handleOpenMenu} isMenuOpen={isMenuOpen} />
         {/*  cta (desktop only)*/}
-        <Button className={`justify-self-end`} />
+        <Button className={`justify-self-end hidden lg:block `} />
       </nav>
     </header>
   );
