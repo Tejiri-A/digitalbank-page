@@ -4,6 +4,9 @@ import {
   iconBudgeting,
   iconOnboarding,
   iconApi,
+  imgCurrency,
+  imgRestaurant,
+  imgPlane,
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -37,5 +40,36 @@ export const aboutCards = [
     icon: iconApi,
     title: "open api",
     text: "Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.",
+  },
+];
+
+export const articleCards = [
+  {
+    id: nanoid(),
+    img: imgCurrency,
+    author: "Claire Robinson",
+    topic: "Receive money in any currency with no fees",
+    text: "The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …",
+  },
+  {
+    id: nanoid(),
+    img: imgRestaurant,
+    author: "Wilson Hutton",
+    topic: "Treat yourself without worrying about money",
+    text: "Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …",
+  },
+  {
+    id: nanoid(),
+    img: imgPlane,
+    author: "Wilson Hutton",
+    topic: "Take your Digitalbank card wherever you go",
+    text: "We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even ...",
+  },
+  {
+    id: nanoid(),
+    img: imgCurrency,
+    author: "Claire Robinson",
+    topic: "Our invite-only Beta accounts are now live!",
+    text: "After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through ...",
   },
 ];

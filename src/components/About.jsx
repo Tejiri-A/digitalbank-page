@@ -7,9 +7,9 @@ const About = () => {
         className={`w-[90vw] max-w-[1110px] mx-auto text-center lg:text-left flex flex-col items-center lg:items-start gap-12 md:gap-18`}
       >
         <article className={`space-y-4 md:space-y-8 w-full lg:max-w-[58%]`}>
-          <h1 className={`text-3 md:text-1 text-blue-950 `}>
+          <h2 className={`text-3 md:text-1 text-blue-950 `}>
             Why choose Digitalbank?
-          </h1>
+          </h2>
           <p className={`text-body`}>
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
@@ -17,16 +17,16 @@ const About = () => {
         </article>
         <div className={`section-grid`}>
           {aboutCards.map(({ id, icon, title, text }) => (
-            <div
+            <article
               key={id}
               className={`flex flex-col items-center gap-10 md:items-start`}
             >
               <img src={icon} alt={title} />
               <div className={`space-y-6`}>
-                <h2 className={`text-4 text-blue-950 capitalize`}>{title}</h2>
+                <h3 className={`text-4 text-blue-950 capitalize`}>{title}</h3>
                 <p className={`text-body`}>{text}</p>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

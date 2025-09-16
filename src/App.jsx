@@ -1,6 +1,7 @@
 import { Heading } from "./components/Heading.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
+import LatestArticles from "./components/LatestArticles.jsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main className={`min-h-[calc(100vh-64px)]`}>
         <Hero />
         <About />
+        <LatestArticles />
       </main>
     </>
   );
