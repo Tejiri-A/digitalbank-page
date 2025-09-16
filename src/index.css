@@ -56,6 +56,18 @@
     @apply text-[0.625rem] leading-[1.15] tracking-normal
 }
 
+@utility section-container{
+    @apply  py-16 md:py-20 lg:py-0 flex flex-col items-center lg:items-start gap-y-12 md:gap-y-18
+}
+
+@utility section-grid{
+    @apply grid md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-16
+}
+
+@utility text-body{
+    @apply text-7-regular md:text-5 text-gray-600
+}
+
 .hero-bg{
     @apply bg-[url('./assets/images/bg-intro-mobile.svg')] md:bg-[url('./assets/images/bg-intro-desktop.svg')]  bg-cover bg-[50%_2%] bg-no-repeat
 }
