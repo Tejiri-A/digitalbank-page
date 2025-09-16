@@ -2,6 +2,7 @@ import { Heading } from "./components/Heading.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import LatestArticles from "./components/LatestArticles.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <About />
         <LatestArticles />
       </main>
+      <Footer />
     </>
   );
 }

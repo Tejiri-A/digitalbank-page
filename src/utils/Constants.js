@@ -7,6 +7,11 @@ import {
   imgCurrency,
   imgRestaurant,
   imgPlane,
+  iconFacebook,
+  iconYoutube,
+  iconTwitter,
+  iconPinterest,
+  iconInstagram,
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -72,4 +77,21 @@ export const articleCards = [
     topic: "Our invite-only Beta accounts are now live!",
     text: "After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through ...",
   },
+];
+
+export const socialIcons = [
+  { id: nanoid(), icon: iconFacebook, alt: "facebook" },
+  { id: nanoid(), icon: iconYoutube, alt: "youtube" },
+  { id: nanoid(), icon: iconTwitter, alt: "twitter" },
+  { id: nanoid(), icon: iconPinterest, alt: "pinterest" },
+  { id: nanoid(), icon: iconInstagram, alt: "instagram" },
+];
+
+export const footerLinks = [
+  { id: nanoid(), label: "about us" },
+  { id: nanoid(), label: "contact" },
+  { id: nanoid(), label: "blog" },
+  { id: nanoid(), label: "careers" },
+  { id: nanoid(), label: "support" },
+  { id: nanoid(), label: "privacy policy" },
 ];
